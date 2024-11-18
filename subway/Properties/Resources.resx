@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="조합창" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\조합창.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="치즈선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\치즈선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="위트" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\위트.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="라즈베리_치즈케익" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\cookie\라즈베리 치즈케익.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="개별주문버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\개별주문버튼.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="하티" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\하티.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="오이" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\오이.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="소금" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\소금.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="로스트_치킨" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\로스트 치킨.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="오믈렛" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴 추가\오믈렛.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="쿠키선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\쿠키선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="스테이크___치즈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\스테이크 &amp; 치즈.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="빵선택3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\빵선택3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="화살표" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\화살표.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="에그마요" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\에그마요.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="추가선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\추가선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="핫칠리" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\핫칠리.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="트러플_마요" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\트러플 마요.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="단품" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\단품.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="파마산_오레가노" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\파마산 오레가노.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="쉬림프" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\쉬림프.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="서브웨이1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\서브웨이1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="풀드_포크_바베큐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\풀드 포크 바베큐.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="더블_초코칩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\cookie\더블 초코칩.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="랜치" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\랜치.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="모차렐라_치즈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese\모차렐라 치즈.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="양상추" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\양상추.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="피클" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\피클.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="베이컨" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴 추가\베이컨.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="올리브" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\올리브.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="절임류" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\절임류.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="주문확인창" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\주문확인창.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_바비큐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\K-바비큐.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="슈레드_치즈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese\슈레드 치즈.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="페퍼로니" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴 추가\페퍼로니.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="확인2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\확인2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="주문완료" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\주문완료.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="치즈추가" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\치즈추가.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="배너" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\배너.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="오트밀_레이즌" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\cookie\오트밀 레이즌.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="탄산음료" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\음료\탄산음료.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="커피" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\음료\커피.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\취소.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="메뉴선택2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴선택2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="서브웨이2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\서브웨이2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="세트" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\세트.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="빵선택1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\빵선택1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="선택없음" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\선택없음.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="메뉴선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="이탈리안_비엠티" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\이탈리안 비엠티.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="초코칩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\cookie\초코칩.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="치킨_슬라이스" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\치킨 슬라이스.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="야채선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\야채선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="마요네즈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\마요네즈.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="서브웨이클럽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\서브웨이클럽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="에그마요1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴 추가\에그마요.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="빵선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\빵선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="레드와인식초" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\레드와인식초.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="허니오트" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\허니오트.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="후추" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\후추.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="스윗_어니언" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\스윗 어니언.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="서브웨이" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\서브웨이.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="화이트_초코_마카다미아" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set\cookie\화이트 초코 마카다미아.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="확인" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\확인.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="소스선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\소스선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="주문접수" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\주문접수.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="피망" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\피망.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="홀스래디쉬" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\홀스래디쉬.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="이전" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\이전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="토마토" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\토마토.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="아보카도" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\아보카도.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="음료선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\음료선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="세트선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\세트선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="아보카도1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\메뉴 추가\아보카도.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="스파이시_이탈리안" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu\스파이시 이탈리안.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="양파" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\양파.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="아메리칸_치즈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese\아메리칸 치즈.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="사우스_웨스트_치폴레" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\souce\사우스 웨스트 치폴레.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="화이트" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\화이트.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subway.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="할라피뇨" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vege\할라피뇨.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="플랫브레드" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread\플랫브레드.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="주문완료1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\주문완료1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
